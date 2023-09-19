@@ -6,6 +6,9 @@ int main()
   
   for (i = 0; i < 10; i++) 
   {
+    if (arr[i] == 10)
+    printf("%d", arr[i]);
+    else
     printf("%d, ", arr[i]);
   }
  
